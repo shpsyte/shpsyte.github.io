@@ -14,7 +14,10 @@ function Dashboard()  {
 }
 function About() {
   return (
-    <h2>about</h2>
+    <>
+      <h2>about</h2>
+      <Link to="/" >Back</Link>
+    </>
   )
 }
 
