@@ -1,10 +1,15 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
 
 
 function Dashboard()  {
   return (
+    <>
     <h1>teste</h1>
+    <Link to="/about" >About</Link>
+
+    </>
+
   )
 }
 function About() {
