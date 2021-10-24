@@ -4,7 +4,7 @@ import './App.css';
 
 const App: React.FC = () => (
   <>
-  <BrowserRouter basename="/me">
+  <BrowserRouter basename="/">
     <Routes />
   </BrowserRouter>
 </>
