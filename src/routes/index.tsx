@@ -1,31 +1,12 @@
 import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+import { Home } from '../Page/Home'
+ 
 
-
-function Dashboard()  {
-  return (
-    <>
-    <h1>teste</h1>
-    <Link to="/about" >About</Link>
-
-    </>
-
-  )
-}
-function About() {
-  return (
-    <>
-      <h2>about</h2>
-      <Link to="/" >Back</Link>
-    </>
-  )
-}
-
-const Routes: React.FC = () => {
+export function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={Dashboard} />
-      <Route path="/about" exact component={About} />
+      <Route path="/" exact component={Home} />
     </Switch>
    )
 };
