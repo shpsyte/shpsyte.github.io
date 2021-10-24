@@ -4,7 +4,7 @@ import './App.css';
 
 const App: React.FC = () => (
   <>
-  <BrowserRouter basename="shpsyte.github.io">
+  <BrowserRouter basename="/shpsyte.github.io">
     <Routes />
   </BrowserRouter>
 </>
