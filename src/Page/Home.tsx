@@ -57,7 +57,7 @@ export function Home() {
         </div>
         <div className="other">
           <span>Time Zone</span>
-          <span>Pst -07:00</span>
+          <span>Pacific Time UTC -8:00/-7:00</span>
         </div>
         <div className="other">
           <span>Industries</span>
